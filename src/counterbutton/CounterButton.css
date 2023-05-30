@@ -1,0 +1,50 @@
+.counterbutton{
+    margin-top: 10px;
+  }
+  
+  .container{
+      width: 200px;
+      height: 200px;
+      background-color: rgb(240, 234, 234);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 10px;
+      margin: auto;
+  }
+  
+  .counter-circle {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* background-color: sandybrown; */
+      align-items: center;
+      text-align: center;
+    }
+  
+    .counter-circle :nth-child(1){
+      margin-top: 15px;
+      margin-bottom: 10px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    .counter-circle :nth-child(2){
+      font-size: 12px;
+      margin-top: 0px;
+      text-decoration: underline;
+    }
+  
+    .changeColorBtn{
+      margin-top: 10px;
+      width: 150px;
+      padding: 6px;
+      border-radius: 5px;
+      font-size: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+      /* background: lightgreen; */
+    }
